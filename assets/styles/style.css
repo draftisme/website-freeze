@@ -1,0 +1,129 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: #EBE9EA; 
+    height: 100px;
+}
+
+.menu img{
+    height: 40px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.menu .menu-items{
+    display: flex;
+    color: #8B8283;
+    cursor: pointer;
+    font-size: 0.75em;
+}
+
+.menu-item{
+    align-self: center;
+    margin-right: 50px;
+}
+
+.menu-item:hover{
+    color: rgb(209, 86, 106);
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+}
+
+.header .header-background{
+    width: 100%;
+}
+
+.header .header-small{
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.header .header-small img{
+    position: absolute;
+    top: -40px;
+    right: -25px;
+    z-index: -1;
+}
+
+.header .header-small .header-text{
+    line-height: 5px;
+}
+
+.container{
+    display: flex;
+    background: #EBE9EA; 
+}
+
+.content{
+    margin: 50px;
+}
+
+.content h3{
+    color: rgb(119, 111, 112);
+}
+
+.content h2{
+    color: rgb(209, 86, 106);
+    text-transform: capitalize;
+}
+
+.content p{
+    color: rgb(141, 130, 131);
+}
+
+.content-img{
+    width: 40%;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+.info{
+    background: #C8C10E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100px;
+}
+
+.product, .story, .flavor, .location{    
+    align-self: center;
+}
+
+.footer{
+    background: rgb(209, 86, 106);
+    height: 150px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .contact{
+    margin-top: 50px;
+}
+
+.footer .fab{
+    font-size: 30px;
+    color: white;
+    margin-left: 15px;
+}
+
+.footer .copyright{
+    color: white;
+    font-size: 12px;
+}
+
