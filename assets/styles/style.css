@@ -39,6 +39,7 @@ body{
 
 .header .header-background{
     width: 100%;
+    display: block;
 }
 
 .header .header-small{
